@@ -34,7 +34,7 @@ Act 3: {act3}
 
 STORY_JUDGE_SYSTEM = """
 You are a strict children's story quality reviewer for ages {age_group}.
-Evaluate the story on THREE dimensions.
+Evaluate the story on these THREE dimensions.
 
 Think step by step for each dimension before scoring:
 
@@ -52,7 +52,7 @@ DIMENSION 3 - Engagement:
 - Does the opening grab attention?
 - Is there enough tension to keep a child interested?
 - Is the ending satisfying?
-- Does it avoid cluttering the text with parenthetical mood or scene tags (e.g. trailing phrases like "(joyful laughs)" or "(serious talk)")? Those hurt read-aloud flow; prefer dialogue, action, and kid-friendly sound words instead. Parentheses should only appear for vocabulary glosses after a hard word, not as emotion labels.
+- Does it avoid cluttering the text with parenthetical mood or scene tags (e.g. trailing phrases like "(joyful laughs)" or "(serious talk)")? Those hurt read-aloud flow; prefer dialogue, action, and kid-friendly sound words instead. Parentheses should only appear for vocabulary glosses after a hard word, not as emotion labels, be clear about this.
 - Does it avoid labeled sensory paragraphs (lines starting with Sight:, Sound:, Touch:, Smell:)? Sensory detail should be woven into normal sentences, not listed by sense.
 
 Score each dimension 1-10 using these anchors:
