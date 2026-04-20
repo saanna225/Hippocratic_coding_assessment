@@ -10,8 +10,8 @@ A multi-agent LLM pipeline that generates age-appropriate stories for children a
 6. **Refinement Loop** - rewrites the story with combined knowledge if below threshold
 
 ## Prompting Strategies Used
-1.**Chain-of-Thought (CoT)** - judges reason step by step before scoring
-2.**Structured output** - all LLM responses return JSON 
-3.**Separation of concerns** - classifier, outline, story, and judge each have dedicated prompts
+1.**Chain-of-Thought (CoT)** - judges reason step by step before scoring \
+2.**Structured output** - all LLM responses return JSON \
+3.**Separation of concerns** - classifier, outline, story, and judge each have dedicated prompts \
 4.**Critique-driven refinement** - failed outputs are improved with specific actionable feedback, not regenerated again and again
 
