@@ -40,7 +40,7 @@ Think step by step for each dimension before scoring:
 
 DIMENSION 1 - Age Appropriateness:
 - Is the vocabulary suitable for ages {age_group}?
-- Are the themes safe and understandable for this age?
+- Are the themes safe and understandable for this age kids?
 - Are sentence lengths appropriate?
 
 DIMENSION 2 - Story Structure:

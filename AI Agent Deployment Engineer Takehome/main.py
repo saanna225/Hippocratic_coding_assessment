@@ -114,7 +114,7 @@ def run_pipeline(user_input: str, category: str) -> str:
 
 
     # ── Step 3: Story Generation + Judge Loop ─────────────────────
-    print("\n[3/4] Writing story...")
+    print("\n[3/4] Creating story..")
     story = generate_story(user_input, outline, age_group, category)
 
     for iteration in range(MAX_STORY_ITERATIONS):
@@ -133,11 +133,11 @@ def run_pipeline(user_input: str, category: str) -> str:
         # max iterations reached — judge final refined story one last time
         story_result = judge_story(story, age_group, category)
         if not story_result.passed:
-            print(f"      Story did not reach threshold after {MAX_STORY_ITERATIONS} attempts. Proceeding with best version.")
+            print(f"      Story did not reach threshold after {MAX_STORY_ITERATIONS} attempts. Proceeding with better versions.")
 
 
     # ── Step 4: Output ────────────────────────────────────────────
-    print("\n[4/4] Your story is ready!\n")
+    print("\n[4/4] Lets jump in to the story\n")
     print("=" * 60)
     return story
 
